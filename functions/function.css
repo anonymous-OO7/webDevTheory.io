@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: darkgray;
+}
+
+header h1 {
+	align-items: center;
+	color: chocolate;
+}
+
+header a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	margin-right: 20px;
+	background-color: aqua;
+}
+
+.addnum input {
+	margin: 1rem;
+	padding: 10px;
+	color: black;
+	background-color: darkkhaki;
+	font-size: 25px;
+	border: 3px solid red;
+	border-radius: 15px;
+
+}
+
+.addnum button {
+	height: 2rem;
+	width: 10rem;
+	color: black;
+	background-color: cyan;
+	font-size: medium;
+	border-radius: 5px;
+}
+
+#ans {
+	font-size: 1.5rem;
+	margin-left: 50px;
+	background-color: black;
+	border-radius: 10px;
+	color: aqua;
+	width: 10rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

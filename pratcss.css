@@ -1,0 +1,166 @@
+.root {
+	margin: 0px;
+}
+
+.head {
+	background-color: darkolivegreen;
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+	position: relative;
+	left: 30rem;
+	top: 10px;
+
+}
+
+#st1 {
+	background-color: beige;
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+#st2 {
+	background-color: beige;
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+#stb {
+	background-color: aqua;
+
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	border-width: 4px;
+}
+
+#stb:hover {
+	border-color: aqua;
+	background-color: black;
+	color: aliceblue;
+	transition: all 0.3s ease;
+	letter-spacing: 3px;
+}
+
+.divs1 {
+
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+	background-color: darkorange;
+	opacity: 0.5;
+	border: 5px solid green;
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+
+}
+
+.divs2 {
+	width: 600px;
+	height: 1000px;
+	background-color: cadetblue;
+}
+
+.divs3 {
+	width: 600px;
+	height: 1000px;
+	background-color: peru;
+}
+
+.outer {
+	background-color: aqua;
+	position: relative;
+}
+
+
+.footer {
+
+	background-color: crimson;
+	height: 100px;
+	width: 1000px;
+}
+
+.divs2 h2 {
+	color: deeppink;
+
+}
+
+.divs2 ol {
+	background-color: beige;
+	border-radius: 10px;
+	color: cornflowerblue;
+	font-size: medium;
+	font-family: cursive;
+
+}
+
+.divs2 ul {
+	color: white;
+	background-color: blueviolet;
+	border-radius: 10px;
+
+}
+
+table,
+td {
+	border: 2px solid orange;
+	align-content: right;
+	border-spacing: 3px;
+	border-collapse: collapse;
+	padding: 10px;
+
+}
+
+thead,
+tfoot {
+	background-color: #333;
+	color: #fff;
+}
+
+.functions {
+	color: grey;
+}
+
+.functions a button {
+	color: aqua;
+
+	background-color: darkorange;
+	width: 10rem;
+	height: 3rem;
+	border: 3px solid black;
+	border-radius: 10px;
+	font-size: 1.3rem;
+	transition: 0.3s ease-in-out;
+}
+
+.functions a button:hover {
+
+	background-color: black;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.proto {
+	color: grey;
+}
+
+.proto a button {
+	color: aqua;
+
+	background-color: darkorange;
+	width: 10rem;
+	height: 3rem;
+	border: 3px solid black;
+	border-radius: 10px;
+	font-size: 1.3rem;
+	transition: 0.3s ease-in-out;
+}
+
+.proto a button:hover {
+
+	background-color: black;
+	color: white;
+	letter-spacing: 2px;
+}

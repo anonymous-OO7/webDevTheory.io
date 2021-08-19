@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#topic {
+	background-color: goldenrod;
+	display: inline-block;
+	margin: auto;
+
+	padding: 1rem;
+}
+
+#demo1 {
+
+	background-color: gray;
+	width: 50rem;
+	height: 30rem;
+	color: aqua;
+	margin: 3rem;
+	padding: 1rem;
+	border-radius: 10px;
+
+}
+
+
+
+#demo1a {
+	height: 18rem;
+	width: 18rem;
+	background-color: black;
+	font-size: 2rem;
+	border-radius: 10px;
+}
+
+
+#watch p {
+
+	background-color: darkkhaki;
+	display: inline-flex;
+	height: 10rem;
+	width: 8rem;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	color: cyan;
+	border-radius: 20px;
+
+}
+
+#btn {
+	color: pink;
+	background-color: aqua;
+	height: 3rem;
+	width: 5rem;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 2rem;
+	padding: 3px;
+}
